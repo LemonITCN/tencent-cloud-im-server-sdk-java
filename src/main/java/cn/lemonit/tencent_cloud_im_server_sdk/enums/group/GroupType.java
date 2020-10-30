@@ -4,23 +4,23 @@ public enum GroupType {
     /**
      * 公开群
      */
-    PUBLIC("Public"),
+    Public("Public"),
     /**
      * 私密群
      */
-    PRIVATE("Private"),
+    Private("Private"),
     /**
      * 聊天室
      */
-    CHATROOM("ChatRoom"),
+    ChatRoom("ChatRoom"),
     /**
      * 音视频聊天室
      */
-    AVCHATROOM("AVChatRoom"),
+    AVChatRoom("AVChatRoom"),
     /**
      * 在线成员广播大群
      */
-    BCHATROOM("BChatRoom");
+    BChatRoom("BChatRoom");
 
     private String code;
 
@@ -30,5 +30,10 @@ public enum GroupType {
 
     GroupType(String code) {
         this.code = code;
+    }
+
+    @Override
+    public String toString() {
+        return this.code;
     }
 }

@@ -13,7 +13,7 @@ public class ReqQueryAllGroup {
      * 群太多时分页拉取标志，第一次填0，以后填上一次返回的值，返回的 Next 为0代表拉完了
      * 选填
      */
-    private Integer Next;
+    private Long Next;
     /**
      * 本次获取的群组 ID 数量的上限，不得超过 10000。如果不填，默认为最大值 10000
      * 选填

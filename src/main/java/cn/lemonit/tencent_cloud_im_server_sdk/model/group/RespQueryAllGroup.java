@@ -6,10 +6,6 @@ import lombok.Setter;
 
 import java.util.List;
 
-class GroupIdData {
-
-}
-
 @Getter
 @Setter
 public class RespQueryAllGroup extends ApiResponse {
@@ -24,9 +20,9 @@ public class RespQueryAllGroup extends ApiResponse {
     /**
      * 获取到的群组 ID 的集合
      */
-    private List<GroupIdData> GroupIdList;
+    private List<RespQueryAllGroup_GroupIdData> GroupIdList;
     /**
      * 分页拉取的标志
      */
-    private Integer Next;
+    private Long Next;
 }
