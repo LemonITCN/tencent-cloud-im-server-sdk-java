@@ -5,7 +5,6 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import lombok.experimental.SuperBuilder;
 
 /**
  * 消息体
@@ -14,7 +13,6 @@ import lombok.experimental.SuperBuilder;
  */
 @Setter
 @Getter
-@SuperBuilder
 @NoArgsConstructor
 @AllArgsConstructor
 public abstract class MessageBody<T extends MessageBodyContent> {

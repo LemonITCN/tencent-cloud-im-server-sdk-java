@@ -13,7 +13,7 @@ import java.util.List;
 @NoArgsConstructor
 @Builder
 @AllArgsConstructor
-public class ReqSendGroupBasicMessage {
+public class ReqSendGroupMessage {
     /**
      * 群组ID
      */
